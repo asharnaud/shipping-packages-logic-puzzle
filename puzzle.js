@@ -7,7 +7,7 @@ var relationshipArr = ['cousin', 'father', 'friend', 'sister']
 // Step#2 Logical Statements:
 // Greg’s friend wasn’t Ellen Fairview, who didn’t live in Ohio. The birthday girl didn’t have her party on Friday.
 if (relationship !== 'friend' && state !== 'Ohio') {
-  maybeHeather = true
+  maybeEllen = true
 }
 if (event === 'birthday' && day !== 'Friday') {
   maybeHeather = true
@@ -35,3 +35,5 @@ if (state !== 'Texas' && relationship === 'sister' && day !== 'Wednesday') {
 if (lastname !== 'DeForest' && event === 'anniversary' && state === 'Montana') {
   maybeWalter = true
 }
+
+//Step#3
